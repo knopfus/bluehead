@@ -1,0 +1,38 @@
+#Welt {
+    width: 6000px;
+    height: 500px;
+    background-color: rgb(200, 255, 255);
+    position: fixed;
+    top: 50%;
+    left: 0;
+    transform: translate(0, -50%);
+    transition: left 100ms, top 100ms;
+}
+
+
+
+.Objekt {
+    position: absolute;
+    transition: left 200ms, top 200ms;
+}
+
+.Objekt-Bild {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#Bluehead {
+    width: 60px;
+    bottom: 50px;
+}
+
+.Block {
+    width: 60px;
+    height: 50px;
+    bottom: 0px;
+    
+}
+
+#Block-Vorlage {
+    display: none;
+}
